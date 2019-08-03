@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Sorria Brasil</title>
+	<meta name="description" content="Clinica Odontologgica">
+	<meta name="keywords" content="Saude, odontologia, estetica">
+	<meta name="roobots" content="index, follow">
+	<meta name="Author" content="Luiz Michel Brito Homsy">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<style>
+
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #ffffff;	
+		}
+
+
+		p {
+			width: 300px;
+			text-align: justify;
+			text-indent: 50px;
+			line-height: 1.5em;
+			color: #000000;
+			padding: 7px;
+		}
+
+		h1 {		
+			font-size: 30pt;
+			margin-bottom: 10px;
+		}
+
+		button {
+			width: 310px;
+			background-color: #000000;
+			filter: opacity(70%);
+		}
+
+		table#tabelaspec {
+			border: 1px solid #606060;
+			border-spacing: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		table#tabelaspec td {
+			border: 1px solid #606060;
+			padding: 10px;
+			vertical-align: top;
+
+		}
+
+		table#tabelaspec td.ce {
+			color: #ffffff;
+			background-color: #39499C;
+			text-align: right;
+			filter: opacity(85%);
+		}
+
+		table#tabelaspec td.cd {
+			color: #000000;
+			background-color: #00B5E2;
+			text-align: left;
+			filter: opacity(85%);
+			font-weight: bold;
+		}
+
+		table#tabelaspec caption {
+			color: #888888;
+			font-size: 13pt;
+			font-weight: bolder;
+		}
+
+		table#tabelaspec caption span {
+			font-weight: bold;
+			display: block;
+			float: right;
+			color: #000000;
+			font-size: 10pt;
+			margin-top: 10px;
+		}
+
+
+
+	</style>
+</head>
+
+<body>
+	<div id="interface">
+		<header class="cabecalho">
+			<img src="img/logosorria.png" class="logo">
+			<button class="btn-menu"> <i class="fa fa-bars fa-lg"></i> </button>
+			<nav class="menu">
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul id="men">
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--BANNER-->
+		<div class="banner">
+			<div class="title">
+
+
+
+				<table id="tabelaspec">
+					<caption><span>Mar/2019</span> </caption>
+					<tr><td class="ce">Cirurgiã-Dentista</td><td class="cd">Universidade Estadual Paulista (UNESP- SJC)</td></tr>
+
+					<tr><td class="ce">Especialista em Prótese dentária</td><td class="cd">Universidade de São Paulo</td></tr>
+
+					<tr><td class="ce">Especialista em Ortodontia</td><td class="cd">FUNORTE- Santo André</td></tr>
+
+					<tr><td class="ce">Especialista em Implantodontia</td><td class="cd">INEPO</td></tr>
+
+					<tr><td class="ce">Capacitação em Reabilitação Oral</td><td class="cd">UNESP-SJC</td></tr>
+
+					<tr><td class="ce">Capacitação em  biomecânica de Aparelhos Autoligados</td><td class="cd">Universidade de New York</td></tr>
+
+					<tr><td class="ce">Capacitação em Harmonização facial</td><td class="cd">Instituto Velasco</td></tr>
+
+					<tr><td class="ce">Capacitação em Plasma Rico em Fibrina</td><td class="cd">INEPO</td></tr>
+
+				</table>
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+		<script>
+			$(".btn-menu").click(function(){
+				$(".menu").show();
+			});
+			$(".btn-close").click(function(){
+				$(".menu").hide();
+			});
+			$(".sob").click(function(){
+				$(".menu").hide();
+			});
+			$(".cin").click(function(){
+				$(".menu").hide();
+			});
+			$(".his").click(function(){
+				$(".menu").hide();
+			});
+			$(".ser").click(function(){
+				$(".menu").hide();
+			});
+			$(".cont").click(function(){
+				$(".menu").hide();
+			});
+			$(".btn-menu").click(function(){
+				$(".b").hide();
+			});
+			$(".btn-close").click(function(){
+				$(".b").show();
+			});
+
+		</script>
+	</div>
+</body>
+</html>

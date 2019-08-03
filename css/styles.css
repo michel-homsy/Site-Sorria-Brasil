@@ -1,0 +1,1256 @@
+/*======RESET------*/
+@charset "UFT-8";
+
+@font-face {
+	font-family: 'fonteLogo';
+	src: url("../_fonts/Californian FB.ttf");
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;	
+}
+
+body {
+	background-color: #f5f5f5;	
+}
+a {
+	text-decoration: none;
+	text-align: justify;
+}
+ul {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+
+p {
+	text-align: justify;
+	
+}
+
+
+/*======CABEÇALHO------*/
+
+
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding-top:30px;
+	z-index: 6;
+}
+.logo {
+	position: absolute;
+	top: -10px;
+	left: -35px;
+	width: 250px;
+	height: 138px;
+	float: left;
+	font-size: 0;
+}
+
+.buttons {
+	width: 100%;
+}
+
+.buttons i {
+	float: right;
+}
+
+.btn-menu {
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #39499C, #00B5E2);
+}
+
+/*======MENU------*/
+
+.menu {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+}
+
+.btn-close {
+	font-size: 1.5em;
+	color: #000;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+}
+.menu ul {
+	width: 60%;
+	position: absolute;
+	left: 24%;
+	text-align: center;
+}
+
+.menu li {
+	padding: 1.5%;
+	
+	transition: background-color 1s;
+
+}
+
+.menu li:hover {
+	background-color: #fff;
+}
+
+.menu li a {
+	font-size: 2.5em;
+	color: #39499C;
+	padding: 1.5% 3%;
+	font-weight: bold;
+}
+
+
+/*======BANNER------*/
+
+.banner {
+	width: 100%;
+	height: 400px;
+	
+	text-align: center;
+	background: url(../img/mulheres01.jpg) no-repeat fixed;
+	background-size:100% 100%;
+	padding-bottom: 100%;
+}
+
+.quadro {
+	background-color: rgba(0, 0, 0, .1);
+	max-width: 960px;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0px auto 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+}
+
+#spa {
+	font-weight: 700;
+	color: #00B5E2;
+}
+
+.title {
+	width: 100%;
+}
+
+.title p {
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 700;
+	color: #39499C;
+}
+
+.title h3 {
+	font-family: 'fonteLogo';
+	text-align: center;
+	font-size: 1.2em;
+	color: #39499C;
+	font-weight: bold;
+}
+
+
+/*======SERVICÇOS------*/
+
+.servicos {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	background-color: #E8E8E8;
+}
+.servico {
+	width: 100%;
+	background-color: #E8E8E8;
+	text-align: left;
+	border-radius: 7px;
+	margin-bottom: 3%;
+}
+.servico h1 {
+	font-family: 'fonteLogo';
+	font-size: 2em;
+	color: #000;
+	text-align: center;
+}
+
+.servico img {
+	border-radius: 7px 7px 0 0;
+}
+
+
+#serv {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	background: linear-gradient(to right, #39499C, #00B5E2);
+}
+
+#serv h1 {
+	width: 100%;
+	font-weight: bold;
+	font-size: 30pt;
+	color: white;
+	
+}
+
+#aaa {
+	font-size: 22pt;
+	font-weight: bold;
+	color: #000;
+}
+#aaa:hover {
+	color: #39499C;
+}
+
+section#hi {
+	background-color: rgba(188, 210, 238, 0.5);
+}
+aside#ci {
+	background-color: rgba(188, 210, 238, 0.5);
+}
+
+aside#ci h1 {
+	font-size: 20pt;
+	margin-bottom: 5px;
+	margin-top: 5%;
+	font-weight: bold;
+}
+
+aside#ci li {
+	margin-left: 5px;
+}
+
+aside#ci p {
+	margin-top: 4%;
+}
+
+section#hi h1 {
+	font-size: 20pt;
+	margin-bottom: 5px;
+	margin-top: 5%;
+	font-weight: bold;
+}
+
+.cinara h1 {
+	text-align: center;
+}
+
+.historia h1 {
+	text-align: center;
+}
+
+.inner {
+	padding: 7px;
+}
+.inner a {
+	font-size: 1.5em;
+	color: #39499C;
+	font-weight: 700;
+}
+.inner h4 {
+	font-size: 1.2em;
+	color: #130400;
+	margin-top: 2%; 
+}
+.inner p {
+	margin-top: 6%;
+	color: #130400;
+	line-height: 1.5em;
+}
+
+.inner h1 {
+	font-size: 1.5em;
+	color: #130400;
+	font-weight: 700;
+}
+
+
+
+/*======NEWSLETTER------*/
+
+.newsletter {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+	background: linear-gradient(to right, #39499C, #00B5E2);
+}
+.newsletter h2 {
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 700;
+}
+.newsletter h3 {
+	color: #fff
+}
+.newsletter form {
+	margin-top: 2%;	
+}
+
+.newsletter input {
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid rgba(255,255,255, 0.3);
+	padding: 5%;
+	border-radius: 5px;
+	font-weight: 700;
+}
+.newsletter button {
+	width: 100%;
+	background-color: #fff; 
+	color: #130400;
+	padding: 5%;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 2%;
+}
+
+
+/*======SERVICOS------*/
+
+.rodape {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	text-align: center;
+	background: linear-gradient(to right, #39499C, #00B5E2);
+}
+
+.rodape p {
+	padding: 10px;
+}
+
+.social-icons a {
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.7);
+	margin-right: 3%;
+}
+.social-icons a:hover {
+	color: rgba(255,255,255);
+}
+.social-icons a:last-child {
+	margin-right: 0
+}
+.copyright {
+	width: 100%;
+	color: rgba(255,255,255,0.7);
+}
+
+span#spaa {
+	color: #fff;
+	font-size: 13pt;
+	text-align: justify;
+}
+
+.newsletter p {
+	color: #fff;
+	text-align: center;
+}
+
+
+/*======MOBILE FIRST------*/
+
+/*======MEDIA TYPES------*/
+
+/*======SMALL DEVICES - SMARTPHONES------*/
+
+@media screen and (min-width: 480px) {
+
+
+	.banner {
+		width: 100%;
+		height: 315px;
+		text-align: center;
+		background: url(../img/mulheres01.jpg) no-repeat fixed;
+		background-size: 110% 150%;
+		
+	}
+
+	.logo {
+		width: 214px;
+		background: url(../img/Logosorria.png) center center/130px no-repeat;
+		position: absolute;
+		left: 0;
+		padding-bottom: 10px;
+		background-size: 70%;
+
+	}
+	.btn-sobre {
+		font-size: 2.0em;
+	}
+	.banner {
+		padding-bottom: 10%;
+		background-size: 140%;
+	}
+	#serv {
+		text-align: center;
+		font-size: 2em;
+		/*background: linear-gradient(to right, #f9f9f9, #00B5E2);*/
+	}
+
+	.cinara h1 {
+		text-align: center;
+	}
+
+	.historia h1 {
+		text-align: center;
+	}
+
+
+	section#hi h1 {
+		font-size: 2em;
+	}
+
+	section#hi p {
+		color: #130400;
+		line-height: 1.0em;
+	}
+
+	aside#ci h1 {
+		font-size: 2em;
+	}
+
+	aside#ci p {
+		margin-top: 2%;
+		color: #130400;
+		line-height: 1.5em;
+	}
+
+	.rodape {
+		width: 100%;
+		float: left;
+		padding: 3% 4%;
+		text-align: center;
+		background: linear-gradient(to right, #39499C, #00B5E2);
+	}
+
+	.rodape p {
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+
+/*======SMALL DEVICES - TABLETS------*/
+
+@media screen and (min-width: 768px) {
+
+	.banner {
+		width: 100%;
+		height: 350px;
+		text-align: center;
+		background: url(../img/mulheres01.jpg) no-repeat fixed;
+		background-size: 100% 100%;
+		
+	}
+
+	.servico {
+		font-family: 'fonteLogo';
+		width: 49%;
+		float: left;
+		margin-right: 2%;
+	}
+	.servico:nth-child(2) {
+		margin-right: 0;
+	}
+	.newsletter h2 {
+		font-size: 2em;
+	}
+	.newsletter h3 {
+		font-size: 1.5em;
+	}
+	.newsletter input {
+		width: 70%;
+		padding: 2%;
+		float: left;
+		margin-right: 1%;
+	}
+	.newsletter button {
+		width: 29%;
+		padding: 2%;
+		float: right;
+		margin-top: 0;
+	}
+	.banner {
+		padding-bottom: 25%;
+		background-size: 120%;
+	}
+
+
+	.cinara h1 {
+		text-align: center;
+	}
+
+	.historia h1 {
+		text-align: center;
+	}
+}
+
+/*======MEDIUM DEVICES - TABLETS & DESKTOPS------*/
+
+@media screen and (min-width: 1024px) {
+
+	.quadro {
+		padding: 0;
+	}
+
+	.title p {
+		position: absolute;
+		top: 480px;
+		left: 80%;
+		color: #39499C;
+	}
+
+	#whats {
+		position: absolute;
+		top: 480px;
+		left: 62%;
+		color: #39499C;
+	}
+
+
+	.title h2 {
+		position: absolute;
+		top: 230px;
+		left: 25%;
+	}
+
+	
+	.title h3 {
+		position: absolute;
+		top: 390px;
+		left: 48%;
+		width: 500px;
+	}
+
+	.banner {
+		width: 100%;
+		height: 500px;
+		text-align: center;
+		background: url(../img/mulheres01.jpg) no-repeat fixed;
+		background-size: 100% 100%;
+		
+	}
+
+	.title {
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	.title h2 {
+		font-size: 3em;
+	}
+	.title h3 {
+		font-size: 2em;
+	}
+	.buttons {
+		width: 30%;
+		float: right;
+		margin-top: 0;
+	}
+
+	.servicos {		
+		border-bottom: 1px solid #606060;
+	}
+
+	.servico {
+		width: 19%;
+		
+	}
+
+	.servico:nth-child(1) {
+		width: 250px;
+	}
+	.servico:nth-child(2) {
+		margin-right: 1%;
+	}
+	.servico:nth-child(3) {
+		
+	}
+	.servico:nth-child(4) {
+		width: 250px;
+	}
+	.servico:nth-child(5) {
+		margin-left: 29%;
+	}
+	.servico:nth-child(6) {
+		margin-left: -1%;
+	}
+
+	.newsletter input {
+		width: 60%;
+		float: none;
+	}
+	.newsletter button {
+		width: 20%;
+		float: none;
+	}
+	
+	.inner a {
+		font-size: 1.3em;
+	}
+	.banner {
+		padding-bottom: 25%;
+		background-size: 110%;
+	}
+
+
+
+	.historia p {
+		float: right;
+		padding-left: 2px;
+		padding-bottom: 30px;
+	}
+	.inner img {
+		width: 60%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 5%;
+		float: right;
+		border-radius: 2%;
+	}
+
+	#serv {
+		text-align: center;
+		font-size: 2em;
+		/*background: linear-gradient(to right, #f9f9f9, #00B5E2);*/
+	}
+
+	.cinara h1 {
+		text-align: center;
+	}
+
+	.historia h1 {
+		text-align: center;
+	}
+
+	.btn-menu {
+		display: none;
+	}
+	.btn-close {
+		display: none;
+	}
+	.menu {
+		display: block;
+		width: auto;
+		height: 30px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block !important;
+		position: static;
+	}
+
+	.menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;	
+		left: 475px;
+	}
+
+	.menu li {
+		height: 10px;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, .0);
+		padding: 10px;
+		margin: 1px;
+		transition: background-color 1s;
+		
+	}
+
+	.menu li:hover {
+		background-color: rgba(0, 0, 0, .0);
+	}
+
+
+	ul#men a:hover {
+		color: #39499C;
+		text-decoration: underline;	
+	}
+
+	
+	ul#men a {
+		position: relative;
+		top: -50px;
+		color: #000;
+		font-size: 12pt;
+		padding: 1px;
+		
+	}
+
+	section#hi {
+		display: block;
+		width: 500px;
+		float: left;
+		padding-right: 15px;
+		padding-left: 15px;
+		background-color: rgba(188, 210, 238, 0.5);
+		
+	}
+	aside#ci {
+		display: block;
+		width: 420px;
+		float: right;
+		padding-right: 15px;
+		padding-left: 15px;
+		background-color: rgba(188, 210, 238, 0.5);
+	}
+
+	section#hi h1 {
+		margin-top: 5%;
+		font-size: 2em;
+	}
+
+	section#hi p {
+		margin-top: 6%;
+		color: #130400;
+		line-height: 1.5em;
+	}
+
+	aside#ci h1 {
+		margin-top: 5%;
+		font-size: 2em;
+	}
+
+	aside#ci p {
+		margin-top: 7%;
+		color: #130400;
+		line-height: 1.5em;
+	}
+
+
+	.rodape {
+		width: 100%;
+		float: left;
+		padding: 3% 4%;
+		text-align: center;
+		background: linear-gradient(to right, #39499C, #00B5E2);
+	}
+
+	.rodape p {
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+	}
+
+
+	.aaa {
+		font-size: 12pt;
+		font-weight: bold;
+	}
+}
+
+
+/*======LARGE DEVICES - WIDE SCREENS------*/
+
+
+
+@media screen and (min-width: 1168px) {
+
+	.quadro {
+		padding: 0;
+	}
+	
+
+	.title p {
+		position: absolute;
+		top: 500px;
+		left: 84%;
+		color: #39499C;
+	}
+
+	#whats {
+		position: absolute;
+		top: 500px;
+		left: 70%;
+		color: #39499C;
+	}
+	.title h3 {
+		position: absolute;
+		top: 425px;
+		left: 60%;
+	}
+
+	.banner {
+		width: 100%;
+		height: 530px;
+		text-align: center;
+		background: url(../img/mulheres01.jpg) no-repeat fixed;
+		background-size: 100% 100%;
+		
+	}
+
+	.cabeçaho {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.btn-menu {
+		display: none;
+	}
+	.btn-close {
+		display: none;
+	}
+	.menu {
+		display: block;
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block !important;
+		position: static;
+	}
+
+	.menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+	}
+	.menu li {
+		height: 10px;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, .0);
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+
+
+	.menu a {
+		color: #000;
+		text-decoration: none;
+	}
+	.menu a:hover {
+		color: #ffffff;
+		text-decoration: underline;		
+	}
+
+	.menu li a {
+		color: #000;
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	section#s {
+		background-color: black;
+	}
+
+	.servico:nth-child(1) {
+		margin-left: 7%;
+		width: 250px;
+	}
+	.servico:nth-child(2) {
+		margin-right: 1%;
+	}
+	.servico:nth-child(3) {
+		
+	}
+	.servico:nth-child(4) {
+		width: 250px;
+	}
+	.servico:nth-child(5) {
+		margin-left: 29.5%;
+	}
+	.servico:nth-child(6) {
+		margin-left: -1%;
+	}
+	.banner {
+		padding-bottom: 25%;
+		background-size: 100%;
+	}
+
+
+	.historia p {
+		float: right;
+		padding-left: 1px;
+	}
+	.inner img {
+		width: 10%;
+		padding-left: 1%;
+		padding-right: 1%;	
+		float: right;
+	}
+
+	section#hi {
+		display: block;
+		width: 440px;
+		float: left;
+		margin-left: 120px;
+		
+	}	
+	aside#ci p {
+		padding-top: 15px;
+		margin-top: 0%;
+	}
+	aside#ci {
+		display: block;
+		width: 450px;
+		float: left;
+	}
+	.rodape {
+		width: 100%;
+		float: left;
+		padding: 3% 4%;
+		text-align: center;
+		background: linear-gradient(to right, #39499C, #00B5E2);
+	}
+
+	.rodape p {
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+
+
+@media screen and (min-width: 1450px) {
+
+	.quadro {
+		padding: 0;
+	}
+
+	.title p {
+		position: absolute;
+		top: 680px;
+		left: 84%;
+		color: #39499C;
+	}
+
+	#whats {
+		position: absolute;
+		top: 680px;
+		left: 72%;
+		color: #39499C;
+	}
+
+	.title h3 {
+		position: absolute;
+		top: 600px;
+		left: 65%;
+	}
+
+
+	.banner {
+		width: 100%;
+		height: 730px;
+		text-align: center;
+		background: url(../img/mulheres01.jpg) no-repeat fixed;
+		background-size: 100% 100%;
+		
+	}
+
+	.cabeçaho {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.btn-menu {
+		display: none;
+	}
+	.btn-close {
+		display: none;
+	}
+	.menu {
+		display: block;
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block !important;
+		position: static;
+	}
+
+	.menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 50px;
+		left: 54%;
+	}
+	.menu li {
+		height: 10px;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, .0);
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+
+
+	.menu a {
+		color: #000;
+		text-decoration: none;
+	}
+	.menu a:hover {
+		color: #ffffff;
+		text-decoration: underline;		
+	}
+
+	.menu li a {
+		color: #000;
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	section#s {
+		background-color: black;
+	}
+
+	.servico:nth-child(1) {
+		margin-left: 17%;
+		width: 250px;
+	}
+	.servico:nth-child(2) {
+		margin-right: 1%;
+	}
+	.servico:nth-child(3) {
+		
+	}
+	.servico:nth-child(4) {
+		width: 250px;
+	}
+	.servico:nth-child(5) {
+		margin-left: 33.5%;
+	}
+	.servico:nth-child(6) {
+		margin-left: -1%;
+	}
+	.banner {
+		padding-bottom: 25%;
+		background-size: 100%;
+	}
+
+	.historia p {
+		float: right;
+		padding-left: 1px;
+	}
+	.inner img {
+		width: 10%;
+		padding-left: 1%;
+		padding-right: 1%;	
+		float: right;
+	}
+
+	section#hi {
+		display: block;
+		width: 540px;
+		float: left;
+		margin-left: 200px;
+		
+	}	
+
+	aside#ci p {
+		padding-top: 15px;
+		margin-top: 0%;
+	}
+	aside#ci {
+		display: block;
+		width: 580px;
+		float: left;
+	}
+	.rodape {
+		width: 100%;
+		float: left;
+		padding: 3% 4%;
+		text-align: center;
+		background: linear-gradient(to right, #39499C, #00B5E2);
+	}
+
+	.rodape p {
+		padding: 10px;
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (min-width: 1920px) {
+	
+.banner {
+	width: 100%;
+	height: 730px;
+	text-align: center;
+	background: url(../img/mulheres01.jpg) no-repeat fixed;
+	background-size:10%;
+}
+	
+
+	.title h3 {
+		position: absolute;
+		top: 600px;
+		left: 70%;
+	}
+
+	.quadro {
+		padding: 0;
+	}
+
+	.title p {
+		position: absolute;
+		top: 680px;
+		left: 89%;
+		color: #39499C;
+	}
+
+	#whats {
+		position: absolute;
+		top: 680px;
+		left: 80%;
+		color: #39499C;
+	}
+
+	.cabeçaho {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.btn-menu {
+		display: none;
+	}
+	.btn-close {
+		display: none;
+	}
+	.menu {
+		display: block;
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block !important;
+		position: static;
+	}
+
+	.menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 50px;
+		left: 58%;
+	}
+	.menu li {
+		height: 10px;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, .0);
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+	.menu li:hover {
+		background-color: rgba(0, 0, 0, .0);
+	}
+
+	.menu a {
+		color: #000;
+		text-decoration: none;
+	}
+	.menu a:hover {
+		color: #ffffff;
+		text-decoration: underline;		
+	}
+
+	.menu li a {
+		color: #000;
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	section#s {
+		background-color: black;
+	}
+
+	.servico:nth-child(1) {
+		margin-left: 18%;
+		width: 250px;
+	}
+	.servico:nth-child(2) {
+		margin-right: 1%;
+	}
+	.servico:nth-child(3) {
+		
+	}
+	.servico:nth-child(4) {
+		width: 250px;
+	}
+	.servico:nth-child(5) {
+		margin-left: 34.5%;
+	}
+	.servico:nth-child(6) {
+		margin-left: -1%;
+	}
+	.banner {
+		padding-bottom: 25%;
+		background-size: 100%;
+	}
+
+	.historia p {
+		float: right;
+		padding-left: 1px;
+	}
+	.inner img {
+		width: 10%;
+		padding-left: 1%;
+		padding-right: 1%;	
+		float: right;
+	}
+
+	section#hi {
+		display: block;
+		width: 540px;
+		float: left;
+		margin-left: 250px;
+		
+	}	
+	aside#ci {
+		display: block;
+		width: 760px;
+		float: left;
+	}
+
+	aside#ci p {
+		padding-top: 15px;
+		margin-top: 0%;
+	}
+	.rodape {
+		width: 100%;
+		float: left;
+		padding: 3% 4%;
+		text-align: center;
+		background: linear-gradient(to right, #39499C, #00B5E2);
+	}
+
+	.rodape p {
+		padding: 10px;
+		text-align: center;
+	}
+
+	#aaa {
+		position: absolute;
+		left: 58%;
+	}
+}
